@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:id="@+id/reset" android:title="Reset"/>
+<item android:id="@+id/Difficulty" android:title="Difficulty">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/easy" android:title="Easy" android:checked="true"/>
+                <item android:id="@+id/medium" android:title="Medium"/>
+                <item android:id="@+id/difficult" android:title="Difficult"/>
+            </group>
+        </menu>
+</item>
+</menu>
